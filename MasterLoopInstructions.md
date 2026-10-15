@@ -1,8 +1,8 @@
 # Master Loop Instructions — apm-PDF-EE
 
-**Repository:** https://github.com/andieDrio/apm-PDF-EE  
-**Canonical branch:** `main`  
-**Purpose:** Mandatory operating procedure for all future project development  
+**Repository:** https://github.com/andieDrio/apm-PDF-EE
+**Canonical branch:** `main`
+**Purpose:** Mandatory operating procedure for all future project development
 **Status:** Development governance baseline
 
 ## 1. Role and mission
