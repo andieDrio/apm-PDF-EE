@@ -1,7 +1,7 @@
 # Test and Release Matrix — apm-PDF-EE
 
-**Status:** Planned validation baseline; no application test suite is configured yet.  
-**Primary development host:** MacBook Pro running macOS Tahoe.  
+**Status:** Planned validation baseline; no application test suite is configured yet.
+**Primary development host:** MacBook Pro running macOS Tahoe.
 **Target platforms:** macOS, Windows, Linux.
 
 ## 1. Validation principles
