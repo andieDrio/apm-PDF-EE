@@ -248,9 +248,25 @@ A passing unit-test suite alone does not establish PDF fidelity, security, or cr
 
 Gates must be completed in order unless a documented dependency requires a narrow prerequisite change. A gate is not complete until its acceptance evidence is recorded and the code/document changes have been inspected and committed.
 
-## 14. Architecture decision records
+## 14. Security, licensing and validation documents
+
+The following documents are part of the architecture baseline and must be maintained with implementation changes:
+
+- `docs/threat-model/ThreatModel.md` — assets, trust boundaries, threat register, mitigations, residual risks and release security gate.
+- `docs/licensing/DependencyPolicy.md` — dependency/model review process, preliminary candidate register and release compliance checklist.
+- `docs/requirements/TestMatrix.md` — platform coverage, test layers, gate evidence and release records.
+
+These documents are proposed controls until implementation and verification evidence exists.
+
+## 15. Architecture decision records
 
 Record major decisions under `docs/decisions/`. Each ADR should include context, decision, alternatives, implications, licensing impact, security impact, evidence, and supersession status.
+
+Initial ADRs:
+
+- `docs/decisions/ADR-0001-desktop-architecture.md` — Tauri + React/TypeScript + Rust host as the leading desktop direction; validation pending.
+- `docs/decisions/ADR-0002-pdf-engine-and-licensing.md` — full PDF engine selection deferred until corpus testing and licensing review.
+- `docs/decisions/ADR-0003-local-first-security.md` — local-first processing and worker isolation design requirements.
 
 Initial required decisions:
 
@@ -263,7 +279,7 @@ Initial required decisions:
 - Cross-platform installer/update strategy.
 - Project distribution license and third-party notice policy.
 
-## 15. Definition of done
+## 16. Definition of done
 
 A change is complete only when:
 
@@ -278,6 +294,6 @@ A change is complete only when:
 9. The change is committed with a meaningful message.
 10. Status reporting distinguishes passed, failed, skipped and unverified checks.
 
-## 16. Current status
+## 17. Current status
 
 At the time this baseline was drafted, repository inspection showed `README.md` and `LICENSE` on the default branch. This document defines the target architecture. It does not claim that application modules, automated tests, build tooling, installers, or any of the described product features have been implemented.
