@@ -297,4 +297,4 @@ Never call a gate complete if required checks are skipped, failures remain, or c
 
 After a gate is fully implemented, validated, reviewed, documented, and committed, automatically inspect the repository and proceed to the next genuinely unfinished gate in the fixed priority order without asking for redundant confirmation. Do not proceed past a blocker. Resolve the blocker and return to the same gate.
 
-The immediate starting point is Gate 00. Repository inspection at the time this document was prepared showed only `README.md` and `LICENSE` on `main`; any later tree and implementation status must be verified from GitHub rather than assumed from this document.
+The initial Gate 00 documentation baseline has been committed on `main`: `README.md`, `LICENSE`, `Architecture.md`, `MasterLoopInstructions.md`, the threat model, dependency/licensing policy, test matrix, and ADR-0001 through ADR-0003. Gate 00 remains pending local repository/Markdown validation and maintainer review. Once that validation is recorded, proceed to Gate 01. Always verify the latest tree and implementation status from GitHub rather than assuming this document is current.
