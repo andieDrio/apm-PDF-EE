@@ -1,7 +1,7 @@
 # Security Threat Model — apm-PDF-EE
 
-**Status:** Baseline for design and implementation; controls are not yet implemented or verified.  
-**Scope:** Local-first desktop PDF application for macOS, Windows, and Linux.  
+**Status:** Baseline for design and implementation; controls are not yet implemented or verified.
+**Scope:** Local-first desktop PDF application for macOS, Windows, and Linux.
 **Review cadence:** At every security-relevant architecture change and before each production release.
 
 ## 1. Security objectives
