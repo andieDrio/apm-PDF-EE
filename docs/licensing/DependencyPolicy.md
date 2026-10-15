@@ -1,7 +1,7 @@
 # Dependency and Licensing Policy — apm-PDF-EE
 
-**Status:** Proposed project policy; not legal advice.  
-**Project license currently in repository:** MIT.  
+**Status:** Proposed project policy; not legal advice.
+**Project license currently in repository:** MIT.
 **Policy owner:** Project maintainer.
 
 ## 1. Objective
