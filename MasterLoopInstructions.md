@@ -151,9 +151,11 @@ Do not switch to a new gate merely because the current gate exposes an error. Do
 
 Acceptance:
 - Canonical documents are consistent.
-- Threat model and data/privacy boundaries are defined.
-- Dependency license policy and unresolved licensing decisions are documented.
-- Test matrix and initial ADRs are established.
+- `docs/threat-model/ThreatModel.md` defines assets, trust boundaries, threat register, mitigations and residual risks.
+- `docs/licensing/DependencyPolicy.md` defines dependency/model review and release compliance rules.
+- `docs/requirements/TestMatrix.md` defines platform, security, fidelity and release validation evidence.
+- ADR-0001, ADR-0002 and ADR-0003 record the initial desktop direction, deferred PDF engine selection, and local-first security requirements.
+- Open decisions and unverified controls are clearly labeled; no code/test/build status is invented.
 
 ### Gate 01 — Desktop shell and CI
 
@@ -218,6 +220,8 @@ Acceptance:
 A gate is complete only when all required acceptance evidence is present. The presence of code alone is insufficient.
 
 ## 8. Mandatory security and PDF integrity rules
+
+Use `docs/threat-model/ThreatModel.md` as the detailed threat register and `docs/licensing/DependencyPolicy.md` for dependency approvals. Use `docs/requirements/TestMatrix.md` for platform and gate-specific evidence. Update those files when implementation changes their assumptions.
 
 - PDFs are untrusted input. Do not execute embedded scripts, launch actions or external links automatically.
 - Constrain worker privileges and resources; avoid giving parser workers unrestricted filesystem or network access.
