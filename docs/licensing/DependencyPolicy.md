@@ -72,11 +72,11 @@ For each model or data package, record:
 
 A permissively licensed inference runtime does not imply permissively licensed model weights.
 
-## 6. Distribution policy decision
+## 6. Initial distribution policy decision
 
-The existing repository license is MIT. This policy does not change it.
+**Decision for the initial implementation:** keep the repository's own project license as MIT and prefer dependencies compatible with a permissive distribution model. Do not make AGPL-licensed or commercial-only components mandatory. An AGPL or commercial component may be reconsidered only after an explicit owner decision and documented licensing/compliance review. This policy does not change the existing `LICENSE` file.
 
-Before the first distributable build, the project owner must explicitly decide whether the application will remain MIT/permissive-compatible or whether components with reciprocal obligations may be included under a compliance plan. Any change to the project's own license requires a separate, deliberate decision.
+This decision preserves the goal of free local use and broad redistribution flexibility, subject to the obligations of each included component. Before a distributable build, the exact dependency tree and bundled assets must still be reviewed. Changing the project's own license requires a separate, deliberate decision.
 
 ## 7. Release compliance checklist
 
