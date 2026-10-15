@@ -1,8 +1,8 @@
 # Architecture — Advanced PDF Intelligence Suite
 
-**Repository:** [andieDrio/apm-PDF-EE](https://github.com/andieDrio/apm-PDF-EE)  
-**Product name:** apm-PDF-EE (PDF Enterprise Edition)  
-**Document status:** Proposed architecture baseline — not proof of implementation  
+**Repository:** [andieDrio/apm-PDF-EE](https://github.com/andieDrio/apm-PDF-EE)
+**Product name:** apm-PDF-EE (PDF Enterprise Edition)
+**Document status:** Proposed architecture baseline — not proof of implementation
 **Last updated:** 2026-10-15
 
 ## 1. Purpose and authority
