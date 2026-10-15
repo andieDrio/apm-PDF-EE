@@ -277,7 +277,7 @@ Initial required decisions:
 - Persistence and index retention.
 - Local model runtime and model distribution terms.
 - Cross-platform installer/update strategy.
-- Project distribution license and third-party notice policy.
+- Project distribution license and third-party notice policy (initial policy: keep the project MIT and prefer permissive-compatible dependencies; exact bundle review remains required).
 
 ## 16. Definition of done
 
@@ -296,4 +296,4 @@ A change is complete only when:
 
 ## 17. Current status
 
-At the time this baseline was drafted, repository inspection showed `README.md` and `LICENSE` on the default branch. This document defines the target architecture. It does not claim that application modules, automated tests, build tooling, installers, or any of the described product features have been implemented.
+Repository inspection on 2026-10-15 found the canonical documentation baseline on `main`: `README.md`, `LICENSE`, `Architecture.md`, `MasterLoopInstructions.md`, a security threat model, a dependency/licensing policy, a test matrix, and ADR-0001 through ADR-0003. The architecture is proposed. No application modules, automated tests, build tooling, installers, or product features are claimed as implemented. Gate 00's documentation baseline is prepared; local repository/Markdown validation and review of the fetched latest state remain required before Gate 00 can be declared complete.
